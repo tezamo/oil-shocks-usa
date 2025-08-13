@@ -13,14 +13,13 @@ bic = zeros(maxLags, 1);
 % Loop through different lag lengths
 for p = 1:maxLags
     X = createLaggedMatrix(data, p);
-    X = X(p+1:end, :);  % Remove rows with NaN values
-    Y = data(p+1:end, :);  % Adjust the range accordingly
-    
-    beta = (X\Y);  % Estimate the coefficients by OLS
-    
-    residuals = Y - X*beta;
-    Sigma = cov(residuals);
-    
+    . 
+    .
+    . 
+    .  "Full implementation removed for privacy"
+    . 
+    . 
+    .
     aic(p) = log(det(Sigma)) + (2*k*p)/T;
     bic(p) = log(det(Sigma)) + (k*p*log(T))/T;
 end
@@ -41,24 +40,24 @@ p = 20;
 % Create the lagged matrix
 X = createLaggedMatrix(data, p);
 X = X(p+1:end, :);  % Remove rows with NaN values
-Y = data(p+1:end, :);  % Adjust the range accordingly
-
-% Add a row of ones before X to create the intercept term.
-X = [ones(size(X, 1), 1), X];
-
-% Estimate the coefficients by OLS
-beta = (X\Y);
-
-% Reshape beta to get the coefficient matrices A_i
-k = size(data, 2);  % Number of variables
-A = reshape(beta(2:end, :), [k, k, p]);
-
-% Estimate the residuals
-residuals = Y - X*beta;
-
-% Estimate the covariance matrix of the residuals
-Sigma = cov(residuals);
-
+.Y = data(p+1:end, :);  % Adjust the range accordingly
+.
+. 
+.
+.
+.
+.
+.
+."Full implementation removed for privacy"
+.
+.
+.
+.
+.
+.
+.
+.
+.
 % Display the estimated coefficient matrices and the covariance matrix of the residuals
 disp('Estimated Coefficient Matrices:');
 disp(A);
@@ -92,15 +91,17 @@ end
 
 % Eigenvalues of the Companion Matrix
 % Create the companion matrix
-k = size(A, 1);  % Number of variables
-C = [reshape(A, [k, k*p]); eye(k*(p-1)), zeros(k*(p-1), k)];
-
-% Get the eigenvalues of the companion matrix
-eigenvalues_C = eig(C);
-
-% Display the eigenvalues and their magnitudes
-disp('Eigenvalues of the companion matrix:');
-disp(eigenvalues_C);
+.k = size(A, 1);  % Number of variables
+.C = [reshape(A, [k, k*p]); eye(k*(p-1)), zeros(k*(p-1), k)];
+.
+.
+.
+. "Full implementation removed for privacy"
+.
+.
+. 
+.
+.
 disp('Magnitudes of the eigenvalues of the companion matrix:');
 disp(abs(eigenvalues_C));
 

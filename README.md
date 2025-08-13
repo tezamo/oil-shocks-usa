@@ -52,7 +52,7 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
      - Generate Impulse Response Functions (IRFs) for responses of CPI and IPI to oil supply surprises and news shocks.
      - Output results to console or save figures/plots (e.g., IRFs as described in Section 5.2 of the report).
 
-5. View the report: Open [`report`](https://tezamo.github.io/oil-shocks-usa/report.html) in a web browser for a detailed narrative, including embedded figures (e.g., IRFs) and methodological explanations.
+5. View the report: Open [`report`](https://tezamo.github.io/oil-shocks-usa/report.html)  in a web browser for a detailed narrative, including embedded figures (e.g., IRFs) and methodological explanations.
 
 ## Key Findings (from the Report)
 
