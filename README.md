@@ -7,7 +7,7 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 ## Repository Structure
 
 - **Report**: 
-  - `report.html`:  It includes the introduction, methodology (data aggregation, lag length determination, VAR estimation, stability assessments), results (optimal lag lengths, coefficient matrices, eigenvalues, impulse response functions), and conclusion. The report embeds R code snippets for visualization and analysis setup.
+  - [`report`](https://tezamo.github.io/oil-shocks-usa/report.html):  It includes the introduction, methodology (data aggregation, lag length determination, VAR estimation, stability assessments), results (optimal lag lengths, coefficient matrices, eigenvalues, impulse response functions), and conclusion. The report embeds R code snippets for visualization and analysis setup.
 
 - **Data Files**:
   - `cpi.xlsx`: Monthly Consumer Price Index (CPI) data for the US from January 1975 to December 2022.
@@ -17,6 +17,11 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 
 - **Code**:
   - `analysis.m`: MATLAB script for performing the core analysis, including lag length selection (using AIC/BIC), estimation of reduced-form and triangular VAR models, Cholesky decomposition, eigenvalue stability checks, and generation of Impulse Response Functions (IRFs). This script loads the Excel data files and replicates the empirical results described in the report.
+
+  ```
+  For privacy reasons, the full code  are not included in this public version. Please contact me to request access to the complete project.
+  ```
+
 
 ## Requirements
 
@@ -28,7 +33,7 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/oil-supply-news-shocks-usa.git
+   git clone https://github.com/tezamo/oil-shocks-usa.git
    ```
    
 2. Open MATLAB and navigate to the repository directory.
@@ -47,7 +52,7 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
      - Generate Impulse Response Functions (IRFs) for responses of CPI and IPI to oil supply surprises and news shocks.
      - Output results to console or save figures/plots (e.g., IRFs as described in Section 5.2 of the report).
 
-5. View the report: Open `report.html` in a web browser for a detailed narrative, including embedded figures (e.g., IRFs) and methodological explanations.
+5. View the report: Open [`report`](https://tezamo.github.io/oil-shocks-usa/report.html) in a web browser for a detailed narrative, including embedded figures (e.g., IRFs) and methodological explanations.
 
 ## Key Findings (from the Report)
 
@@ -57,9 +62,6 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 - **IRFs**: Oil supply news shocks have immediate, intense effects on CPI (fluctuating then dissipating) and short-lived impacts on IPI.
 - **Implications**: Highlights the need for policymakers to monitor oil supply information dynamics for broader economic stability.
 
-## Author
-
-- Morteza Motegh
 
 ## References
 
