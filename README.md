@@ -7,7 +7,7 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 ## Repository Structure
 
 - **Report**: 
-  - [`report`](https://tezamo.github.io/oil-shocks-usa/report.html):  It includes the introduction, methodology (data aggregation, lag length determination, VAR estimation, stability assessments), results (optimal lag lengths, coefficient matrices, eigenvalues, impulse response functions), and conclusion. The report embeds R code snippets for visualization and analysis setup.
+  - [`report`](https://tezamo.github.io/oil-shocks-usa/Report.html):  It includes the introduction, methodology (data aggregation, lag length determination, VAR estimation, stability assessments), results (optimal lag lengths, coefficient matrices, eigenvalues, impulse response functions), and conclusion. The report embeds R code snippets for visualization and analysis setup.
 
 - **Data Files**:
   - `cpi.xlsx`: Monthly Consumer Price Index (CPI) data for the US from January 1975 to December 2022.
@@ -52,7 +52,7 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
      - Generate Impulse Response Functions (IRFs) for responses of CPI and IPI to oil supply surprises and news shocks.
      - Output results to console or save figures/plots (e.g., IRFs as described in Section 5.2 of the report).
 
-5. View the report: Open [`report`](https://tezamo.github.io/oil-shocks-usa/report.html)  in a web browser for a detailed narrative, including embedded figures (e.g., IRFs) and methodological explanations.
+5. View the report: Open [`report`](https://tezamo.github.io/oil-shocks-usa/Report.html)  in a web browser for a detailed narrative, including embedded figures (e.g., IRFs) and methodological explanations.
 
 ## Key Findings (from the Report)
 
