@@ -35,6 +35,20 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 - **Libraries/Toolboxes**: MATLAB's Econometrics Toolbox for VAR modeling, impulse responses, and Cholesky decomposition. No additional installations are needed beyond standard MATLAB.
 - **Data Handling**: Ensure Excel files are readable; MATLAB's `readtable` or `xlsread` functions can import the data.
 
+## 📂 Project Structure
+```markdown
+Oil Schoks USA
+├── data/                        # Raw datasets
+│   ├── CPI.xls                   # Consumer Price Index d
+│   ├── IPI.xls                   # Industrial Production 
+│   └── oilSupplyNewsShocks.xlsx  # Oil supply news 
+├── figures/                     # Plots and figures
+├── article.html                 # Research article (exported HTML)
+├── dataprocessing.html          # Data processing workflow (HTML export)
+├── script.m                     # MATLAB analysis script
+├── LICENSE                      # License file
+└── README.md                    # Project overview
+```
 ## How to Run the Analysis
 
 1. Clone this repository:
