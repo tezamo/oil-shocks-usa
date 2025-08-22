@@ -37,14 +37,14 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 
 ## 📂 Project Structure
 ```markdown
-Oil Schoks USA
+Oil Shocks USA
 ├── data/                        # Raw datasets
 │   ├── CPI.xls                   # Consumer Price Index d
 │   ├── IPI.xls                   # Industrial Production 
 │   └── oilSupplyNewsShocks.xlsx  # Oil supply news 
 ├── figures/                     # Plots and figures
-├── article.html                 # Research article (exported HTML)
-├── dataprocessing.html          # Data processing workflow (HTML export)
+├── article.html                 # Research article 
+├── dataprocessing.html          # Data processing workflow 
 ├── script.m                     # MATLAB analysis script
 ├── LICENSE                      # License file
 └── README.md                    # Project overview
