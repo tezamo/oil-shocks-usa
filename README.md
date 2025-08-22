@@ -9,7 +9,7 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 ## Repository Structure
 
 - **Report**: 
-  - [`report`](https://tezamo.github.io/oil-shocks-usa/present.html):  It includes the introduction, methodology (data aggregation, lag length determination, VAR estimation, stability assessments), results (optimal lag lengths, coefficient matrices, eigenvalues, impulse response functions), and conclusion. 
+  - [`report`](https://tezamo.github.io/oil-shocks-usa/article.html):  It includes the introduction, methodology (data aggregation, lag length determination, VAR estimation, stability assessments), results (optimal lag lengths, coefficient matrices, eigenvalues, impulse response functions), and conclusion. 
   - [`analysis`](https://tezamo.github.io/oil-shocks-usa/dataprocessing.html): It includes the analysis scripts and related result.
 
 - **Data Files**:
@@ -60,7 +60,7 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 
 5. View the report: 
 
-   Open [`report`](https://tezamo.github.io/oil-shocks-usa/present.html) and [`analysis`](https://tezamo.github.io/oil-shocks-usa/dataprocessing.html) in a web browser for a detailed narrative, including embedded figures (e.g., IRFs) and methodological explanations.
+   Open [`report`](https://tezamo.github.io/oil-shocks-usa/article.html) and [`analysis`](https://tezamo.github.io/oil-shocks-usa/dataprocessing.html) in a web browser for a detailed narrative, including embedded figures (e.g., IRFs) and methodological explanations.
 
 ## Key Findings (from the Report)
 
