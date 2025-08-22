@@ -1,5 +1,4 @@
-![head.gif](figures/oil.gif)
-<img src="figures/oil.gif" alt="head" width="1000" height="200">
+<img src="figures/oil.gif" alt="head" width="800" height="200">
 
 
 # The Macroeconomic Effects of Oil Supply News Shocks in the USA
