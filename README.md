@@ -10,7 +10,7 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 
 - **Report**: 
   - [`report`](https://tezamo.github.io/oil-shocks-usa/present.html):  It includes the introduction, methodology (data aggregation, lag length determination, VAR estimation, stability assessments), results (optimal lag lengths, coefficient matrices, eigenvalues, impulse response functions), and conclusion. 
-  - [`analysis`](https://github.com/tezamo/oil-shocks-usa/blob/main/analysis.html): It includes the analysis scripts and related result.
+  - [`analysis`](https://tezamo.github.io/oil-shocks-usa/dataprocessing.html): It includes the analysis scripts and related result.
 
 - **Data Files**:
   - `cpi.xlsx`: Monthly Consumer Price Index (CPI) data for the US from January 1975 to December 2022.
@@ -60,7 +60,7 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 
 5. View the report: 
 
-   Open [`report`](https://tezamo.github.io/oil-shocks-usa/present.html) and [`analysis`](https://github.com/tezamo/oil-shocks-usa/blob/main/analysis.html) in a web browser for a detailed narrative, including embedded figures (e.g., IRFs) and methodological explanations.
+   Open [`report`](https://tezamo.github.io/oil-shocks-usa/present.html) and [`analysis`](https://tezamo.github.io/oil-shocks-usa/dataprocessing.html) in a web browser for a detailed narrative, including embedded figures (e.g., IRFs) and methodological explanations.
 
 ## Key Findings (from the Report)
 
