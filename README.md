@@ -17,6 +17,9 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 
 - **Code**:
   - `analysis.m`: MATLAB script for performing the core analysis, including lag length selection (using AIC/BIC), estimation of reduced-form and triangular VAR models, Cholesky decomposition, eigenvalue stability checks, and generation of Impulse Response Functions (IRFs). This script loads the Excel data files and replicates the empirical results described in the report.
+- **Languages Used**
+  - MATLAB
+  - HTML
 
   ```
   For privacy reasons, the full code  are not included in this public version. Please contact me to request access to the complete project.
