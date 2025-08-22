@@ -1,4 +1,4 @@
-<img src="figures/oil.gif" alt="head" width="700" height="200">
+<img src="figures/oil.gif" alt="head" width="800" height="400">
 
 
 # The Macroeconomic Effects of Oil Supply News Shocks in the USA
