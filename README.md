@@ -1,4 +1,4 @@
-![head.png](figures/head.jpg)
+![head.png](figures/head.png)
 
 # The Macroeconomic Effects of Oil Supply News Shocks in the USA
 
