@@ -1,3 +1,5 @@
+![head.png](figures/head.jpg)
+
 # The Macroeconomic Effects of Oil Supply News Shocks in the USA
 
 This repository contains the code, data, and report for a research project analyzing the macroeconomic impacts of oil supply news shocks on key US economic indicators, such as the Consumer Price Index (CPI) and Industrial Production Index (IPI). The study covers the period from January 1975 to December 2022 and employs Vector Autoregression (VAR) models, including reduced-form and triangular VAR with Cholesky decomposition, to examine dynamic interrelationships and impulse responses.
