@@ -9,7 +9,8 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 ## Repository Structure
 
 - **Report**: 
-  - [`report`](https://tezamo.github.io/oil-shocks-usa/present.html):  It includes the introduction, methodology (data aggregation, lag length determination, VAR estimation, stability assessments), results (optimal lag lengths, coefficient matrices, eigenvalues, impulse response functions), and conclusion. The report embeds R code snippets for visualization and analysis setup.
+  - [`report`](https://tezamo.github.io/oil-shocks-usa/present.html):  It includes the introduction, methodology (data aggregation, lag length determination, VAR estimation, stability assessments), results (optimal lag lengths, coefficient matrices, eigenvalues, impulse response functions), and conclusion. 
+  - [`analysis`](https://tezamo.github.io/oil-shocks-usa/analysis.html): It includes the analysis scripts and related result.
 
 - **Data Files**:
   - `cpi.xlsx`: Monthly Consumer Price Index (CPI) data for the US from January 1975 to December 2022.
@@ -18,7 +19,7 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
   - (Note: An additional oil supply surprise series is referenced in the report but may be derived or included within the oilSupplyNewsShocks file.)
 
 - **Code**:
-  - `analysis.m`: MATLAB script for performing the core analysis, including lag length selection (using AIC/BIC), estimation of reduced-form and triangular VAR models, Cholesky decomposition, eigenvalue stability checks, and generation of Impulse Response Functions (IRFs). This script loads the Excel data files and replicates the empirical results described in the report.
+  - `script.m`: MATLAB script for performing the core analysis, including lag length selection (using AIC/BIC), estimation of reduced-form and triangular VAR models, Cholesky decomposition, eigenvalue stability checks, and generation of Impulse Response Functions (IRFs). This script loads the Excel data files and replicates the empirical results described in the report.
 - **Languages Used**
   - MATLAB
   - HTML
@@ -48,7 +49,7 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
 
 4. Run the MATLAB script:
    ```
-   analysis
+   Script
    ```
    - This will:
      - Determine optimal lag lengths (AIC suggests 20 lags; BIC suggests 17).
@@ -57,7 +58,9 @@ The analysis draws inspiration from related work (e.g., Känzig's findings) and 
      - Generate Impulse Response Functions (IRFs) for responses of CPI and IPI to oil supply surprises and news shocks.
      - Output results to console or save figures/plots (e.g., IRFs as described in Section 5.2 of the report).
 
-5. View the report: Open [`report`](https://tezamo.github.io/oil-shocks-usa/present.html)  in a web browser for a detailed narrative, including embedded figures (e.g., IRFs) and methodological explanations.
+5. View the report: 
+
+   Open [`report`](https://tezamo.github.io/oil-shocks-usa/present.html) and [`analysis`](https://tezamo.github.io/oil-shocks-usa/analysis.html) in a web browser for a detailed narrative, including embedded figures (e.g., IRFs) and methodological explanations.
 
 ## Key Findings (from the Report)
 
