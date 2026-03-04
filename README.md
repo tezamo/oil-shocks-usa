@@ -92,9 +92,8 @@ Oil Shocks USA
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details (if not present, assume open for academic use).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-For questions or contributions, open an issue or contact the author.
 
 [![pages-build-deployment](https://github.com/tezamo/oil-shocks-usa/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/tezamo/oil-shocks-usa/actions/workflows/pages/pages-build-deployment)
 [![contributors](https://img.shields.io/github/contributors/tezamo/oil-shocks-usa.svg)](https://github.com/tezamo/oil-shocks-usa/graphs/contributors)
